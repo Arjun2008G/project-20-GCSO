@@ -24,7 +24,7 @@ function draw() {
     car.velocityX=0;
     var deformation = 0.5 * weight * speed * speed/22509;
 
-    if(deformation<100){
+    if(deformation>180){
       car.shapeColor=rgb(255,0,0);
     }
 
